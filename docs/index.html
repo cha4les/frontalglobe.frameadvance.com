@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-40431500-6"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-40431500-6');
+    </script>
+
+    <title>Frontal Globe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Charles Eubanks">
+    <meta name="keywords" content="geography, education, app, iOS, countries, states, territories, provinces, capitals, Unity3d, Unity">
+    <link rel="stylesheet" href="w3.css">
+    <style>
+        body, html {height: 100%}
+        h1 {text-align: center}
+        .bgimg {
+            background-color: black;
+            background-image: url('globe_tan_nolabels_cropped.jpg');
+            min-height: 100%;
+            background-repeat: no-repeat;
+            background-position: bottom;
+            background-size: contain;
+        }
+        .fadv-bgcontainer { background-color: black; }
+        .fadv-gameicon { width: 196px; }
+        .fadv-opacity-min { opacity: 0.9; }
+        .fadv-opacity-max { opacity: 0.5; }
+        .fadv-footer { padding-top: 100px; }
+        .ce-portfolio-img { max-height: 600px; max-width: 100%; }
+        .ce-img-tick {height:13px;width:13px;padding:0}
+        .mySlides {display:none}
+        .w3-left, .w3-right, .w3-badge {cursor:pointer}
+    </style>
+</head>
+
+<body>
+    <div class="fadv-bgcontainer">
+    <div class="bgimg w3-display-container w3-text-white">
+        
+        <!-- Header -->
+        <header class="w3-container w3-center w3-black w3-padding-16"> 
+            <img class="fadv-gameicon w3-center" src="AppIcon_FrontalGlobe_rounded.png" alt="Frontal Globe app icon">
+            <h1 class="w3-xxlarge">Frontal Globe</h1>
+        </header>
+        
+        <!-- Introduction -->
+        <div class="w3-container w3-row w3-padding w3-margin-bottom">
+            <div class="w3-container w3-card-4  w3-sand">
+                <h2>About</h2>
+                <div class="w3-section">
+                Geo-train your brain!  The <b>Frontal Globe</b> app will help you learn the countries and capitals of the world.
+                </div>
+                <div class="w3-section">
+                    <h3>Features:</h3>
+                    <ul>
+                    <li>Over 300 political regions (countries, dependencies, states, provinces, territories, etc.)
+                    <ul>
+                        <li>All 193 sovereign countries of the world and their capitals</li>
+                        <li>All 50 US states and their capitals</li>
+                        <li>All 13 Canadian provinces and territories, and their capitals</li>
+                        <li>All 9 Australian states and territories, and their capitals</li>
+                    </ul></li>
+                    <li>Incredibly detailed, 100% vector graphics (no blurry pixels)</li>
+                    <li>Displayed as a globe, not flat projection, so features' shapes/sizes are not distorted</li>
+                    <li>As you learn, your progress is highlighted on the globe</li>
+                    <li>Customizable color schemes</li>
+                    <li>No internet access required, so you can learn on the go</li>
+                    </ul>
+
+                    <p>Coming soon to an iOS device near you!</p>
+                </div>
+            </div>
+        </div>
+        
+        
+                <!-- Screen shots -->
+        <div class="w3-row-padding" >
+            <div class="w3-row w3-margin-bottom">
+                <h2 class="w3-center">Screen shots</h2>
+                <div class="w3-container w3-margin-bottom w3-center">
+                    <!-- slideshow goes here -->
+
+                    <div class="w3-margin-bottom">
+                    <span class="w3-badge w3-card w3-transparent w3-white" onclick="plusDivs(-1)">&#10094;</span>
+                        &nbsp;
+                    <span class="ce-img-tick w3-badge demo w3-card w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                    <span class="ce-img-tick w3-badge demo w3-card w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+                    <span class="ce-img-tick w3-badge demo w3-card w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+                    <span class="ce-img-tick w3-badge demo w3-card w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+                    <span class="ce-img-tick w3-badge demo w3-card w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
+                    <span class="ce-img-tick w3-badge demo w3-card w3-border w3-transparent w3-hover-white" onclick="currentDiv(6)"></span>
+                    <span class="ce-img-tick w3-badge demo w3-card w3-border w3-transparent w3-hover-white" onclick="currentDiv(7)"></span>
+                        &nbsp;
+                    <span class="w3-badge w3-card w3-transparent w3-white" onclick="plusDivs(1)">&#10095;</span>
+                    </div>
+
+                    <div class="w3-content w3-center w3-display-container">
+                    <img class="mySlides ce-portfolio-img w3-card-4 w3-border w3-padding w3-white" src="screens/s1.jpg" alt="screen shot 1">
+                    <img class="mySlides ce-portfolio-img w3-card-4 w3-border w3-padding w3-white" src="screens/s3.jpg" alt="screen shot 3">
+                    <img class="mySlides ce-portfolio-img w3-card-4 w3-border w3-padding w3-white" src="screens/s4.jpg" alt="screen shot 4">
+                    <img class="mySlides ce-portfolio-img w3-card-4 w3-border w3-padding w3-white" src="screens/s6.jpg" alt="screen shot 6">
+                    <img class="mySlides ce-portfolio-img w3-card-4 w3-border w3-padding w3-white" src="screens/s7.jpg" alt="screen shot 7">
+                    <img class="mySlides ce-portfolio-img w3-card-4 w3-border w3-padding w3-white" src="screens/s8.jpg" alt="screen shot 8">
+                    <img class="mySlides ce-portfolio-img w3-card-4 w3-border w3-padding w3-white" src="screens/s9.jpg" alt="screen shot 9">
+                    </div>
+                </div>
+            </div>
+
+<script>
+var slideIndex = 1;
+var autoCycleEnabled = true;
+showDivs(slideIndex);
+setTimeout(autoCycle, 4000);
+
+function autoCycle()
+{
+    if (autoCycleEnabled === true)
+    {
+        showDivs(slideIndex += 1);
+        setTimeout(autoCycle, 4000);
+    }
+}
+
+function plusDivs(n) {
+  autoCycleEnabled = false;
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  autoCycleEnabled = false;
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "inline";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+                
+                
+        <!-- END Screen shots -->
+        </div>
+        
+        <!-- Footer -->
+        <footer class="w3-center fadv-footer">
+
+            <div class="w3-tiny w3-center w3-padding-small w3-white fadv-opacity-max">
+            <p><img src="made-with-unity-black.png" alt="Made with Unity"><br>This page was designed and lovingly coded by hand by Charles Eubanks.<br>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a><br>Copyright &copy; 2017 Charles Eubanks</p>
+            </div>
+        </footer>
+    </div>
+    </div>
+</body>
+</html>
